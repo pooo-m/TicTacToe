@@ -1,10 +1,9 @@
-package Client;
 import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-       Client client = new Client();
-       client.startClient();
+        Server s = new Server();
+        s.start();
     }
 }
-//java -jar Client.jar
+//java -jar Server.jar
